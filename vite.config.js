@@ -7,6 +7,7 @@ export default defineConfig({
   resolve: {
     alias: {
       "@": resolve(__dirname, "./src"),
+      "ol": resolve(__dirname, "./node_modules/ol/src/ol"),
     },
     preserveSymlinks: false,
     dedupe: ['vue'],
@@ -18,7 +19,7 @@ export default defineConfig({
       name: 'vue3-openlayers',
 
       fileName: (format) => `vue3-openlayers.${format}.js`,
-    
+
     },
     rollupOptions: {
       external: ['vue'],
