@@ -43,11 +43,6 @@
     "build": "vite build",
     "serve": "vite preview"
   },
-  "files": [
-    "dist/*",
-    "index.d.ts",
-    "src/*"
-  ],
   "types": "index.d.ts",
   "dependencies": {
     "file-saver": "^2.0.5",
