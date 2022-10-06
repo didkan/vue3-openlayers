@@ -26,8 +26,7 @@
   "author": "Melih Altıntaş",
   "license": "MIT",
   "private": false,
-  "main": "./dist/vue3-openlayers.umd.js",
-  "module": "./dist/vue3-openlayers.es.js",
+  "main": "./src/index.js",
   "exports": {
     ".": {
       "import": "./dist/vue3-openlayers.es.js",
